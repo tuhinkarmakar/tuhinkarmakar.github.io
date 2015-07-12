@@ -1,0 +1,7 @@
+defaults:
+  -
+    scope:
+      path: ""
+
+    values:
+      permalink: /404.html
