@@ -1,3 +1,7 @@
 a:hover {
     text-decoration: none;
 }
+
+.social-buttons {
+    display: inline;
+}
