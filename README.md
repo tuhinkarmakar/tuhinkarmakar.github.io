@@ -26,7 +26,7 @@
 
 ---
 
-#### Following frameworks, themes, icon sets, font have been used
+#### Following frameworks, themes, icon sets have been used
 * [Bootstrap](http://getbootstrap.com/)
 * [Bootswatch Paper theme](http://bootswatch.com/paper)
 * [Twemoji Awesome](http://ellekasai.github.io/twemoji-awesome)
