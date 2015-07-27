@@ -5,3 +5,7 @@ a:hover {
 .social-buttons {
     display: inline;
 }
+
+.jumbotron h1 {
+    font-size: 45px;
+}
