@@ -1,0 +1,57 @@
+span, thead h6 {
+    font-weight: bold;
+}
+
+img {
+    height: 260px;
+}
+
+.container {
+    @media screen {
+        width: 70%;
+    }
+
+    @media (min-width: 769px) and (max-width: 1200px) {
+        width: 90%;
+    }
+
+    /* For container > h2. Not for container > row > col-md-9 > h2 */
+    >h2 {
+        @media screen {
+            font-size: 34px;
+        }
+
+        @media (max-width: 768px) {
+            font-size: 21px;
+        }
+    }
+}
+
+address {
+    h2 {
+        @media screen {
+            margin-top: 11.5px;
+            font-size: 24px;
+        }
+
+        @media (max-width: 768px) {
+            font-size: 18px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    #above-all {
+        width: 100%;
+        padding: 0;
+
+        h1 {
+            font-size: 30px
+        }
+    }
+
+    .jumbotron {
+        height: 100px;
+        padding-top: 15px
+    }
+}
