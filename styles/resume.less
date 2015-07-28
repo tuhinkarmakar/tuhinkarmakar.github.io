@@ -23,19 +23,6 @@ img {
     }
 }
 
-address {
-    h2 {
-        @media screen {
-            margin-top: 11.5px;
-            font-size: 24px;
-        }
-
-        @media (max-width: 768px) {
-            font-size: 18px;
-        }
-    }
-}
-
 @media (max-width: 768px) {
     #banner {
         width: 100%;
@@ -67,8 +54,15 @@ tr {
         font-weight: bold;
     }
 }
+
 address {
     li {
-        font-size: 20px;
+        @media screen {
+            font-size: 20px;
+        }
+
+        @media (max-width: 768px) {
+            font-size: 18px;
+        }
     }
 }
