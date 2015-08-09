@@ -37,7 +37,7 @@
         <link rel="stylesheet" href="octicons/octicons.css" media="screen" title="no title">
     </head>
 
-    <body>
+    <body itemscope itemtype="http://schema.org/Person">
         <div class="container" id="banner">
             <header class="jumbotron">
                 <h1 class="text-center">Curriculum Vitaé</h1>
@@ -47,7 +47,7 @@
         <!-- Start of Contact Information's Container -->
         <div class="container">
             <div class="row">
-                <address itemscope itemtype="http://schema.org/Person" class="col-md-7">
+                <address class="col-md-7">
                     <ul class="list-group">
                         <li itemprop="name" class="list-group-item">
                             <span class="glyphicon glyphicon-user"></span> Tuhin Karmakar
@@ -294,9 +294,9 @@
 
                         <div class="panel-body">
                             <ul class="list-group">
-                                <li class="list-group-item lead"><span>Date of Birth: </span>19<sup>th</sup> August, 1993</li>
-                                <li class="list-group-item lead"><span>Gender: </span> Male</li>
-                                <li class="list-group-item lead"><span>Last Updated: </span> 27<sup>th</sup> July, 2015</li>
+                                <li class="list-group-item lead"><span>Date of Birth: </span><time itemprop="birthDate" datetime="1993-08-19">19<sup>th</sup> August, 1993</time></li>
+                                <li class="list-group-item lead"><span>Gender: </span><span itemprop="gender">Male</span></li>
+                                <li class="list-group-item lead"><span>Last Updated: </span><time datetime="2015-07-27">27<sup>th</sup> July, 2015</time></li>
                             </ul>
                         </div>
                     </div>
