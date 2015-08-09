@@ -47,15 +47,34 @@
         <!-- Start of Contact Information's Container -->
         <div class="container">
             <div class="row">
-                <address class="col-md-7">
+                <address itemscope itemtype="http://schema.org/Person" class="col-md-7">
                     <ul class="list-group">
-                        <li class="list-group-item"><span class="glyphicon glyphicon-user"></span> Tuhin Karmakar</li>
-                        <li class="list-group-item hidden-xs"><span class="glyphicon glyphicon-home"></span> Dangalpara, Siuri, West Bengal, India, 731101</li>
-                        <li class="list-group-item"><span class="glyphicon glyphicon-phone"></span> +919475501573</li>
-                        <li class="list-group-item"><span class="glyphicon glyphicon-envelope"></span> tuhinkarmakar93@gmail.com</li>
-                        <li class="list-group-item"><span class="glyphicon glyphicon-globe"></span> tuhinkarmakar.me</li>
+                        <li itemprop="name" class="list-group-item">
+                            <span class="glyphicon glyphicon-user"></span> Tuhin Karmakar
+                        </li>
+                        <li itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" class="list-group-item hidden-xs">
+                            <span class="glyphicon glyphicon-home"></span>
+                            <span itemprop="streetAddress"> Dangalpara</span>,
+                            <span itemprop="addressLocality">Siuri</span>,
+                            <span itemprop="addressRegion">West Bengal</span>,
+                            <span itemprop="addressCountry" itemscope itemtype="http://schema.org/Country"><span itemprop="name">India</span></span>,
+                            <span itemprop="postalCode">731101</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="glyphicon glyphicon-phone"></span>
+                            <span itemprop="telephone"> +919475501573</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="glyphicon glyphicon-envelope"></span>
+                            <span itemprop="email"> tuhinkarmakar93@gmail.com</span>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="glyphicon glyphicon-globe"></span>
+                            <span itemprop="url"> tuhinkarmakar.me</span>
+                        </li>
                     </ul>
                 </address>
+
                 <figure class="col-md-3 col-md-offset-2 thumbnail hidden-xs hidden-sm">
                     <img src="img/tensai-official.webp" alt="tensai">
                 </figure>
@@ -175,15 +194,15 @@
 
                         <div class="panel-body">
                             <ul class="list-group">
-                                <li class="list-group-item lead text-justify">
+                                <li class="text-justify list-group-item lead">
                                     Participated in the 3<sup>rd</sup> annual inter institute tech fest, Prayog 2013 (Software Modelling)
                                 </li>
 
-                                <li class="list-group-item lead text-justify">
+                                <li class="text-justify list-group-item lead">
                                     <a href="https://drive.google.com/file/d/0B0Qo0Eokxz5iRmhqT0gxLW40cVU/view?usp=sharing">Certificate for Completion of LFS101x.2: Introduction to Linux course (From The Linux Foundation through edX)</a>
                                 </li>
 
-                                <li class="list-group-item lead text-justify">
+                                <li class="text-justify list-group-item lead">
                                     Served as a volunteer for Inspire - Science and Astronomy Camp for Senior School Students (2012 & 2013)
                                 </li>
                             </ul>
