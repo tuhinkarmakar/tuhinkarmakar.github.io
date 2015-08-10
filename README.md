@@ -6,7 +6,6 @@
 ###### The repo has the follwing HTML pages
 
 * **404.html** - *Custom page for 404 error*
-* **blog.html** - *Embeds Blogger*
 * **index.html** - *Landing page*
 * **resume.html** - *Showcases my resume*
 
@@ -16,12 +15,13 @@
 ###### The repo has the follwing directories
 * **bootstrap** - *Files required for the Bootstrap framework*
 * **font-awesome** - *Files required for the Font Awesome icon set* (Used for social buttons)
-* **img** - *Holds images used on the site*
+* **img** - *Stores images used on the site*
+* **js** - *Stores scripts used on the site*
 * **octicons** - *Files required for GitHub's Octicons icon set* (Used for the footer)
+* **styles** - *Stores stylesheets used on the site*
 
 ###### Miscellaneous files
 * **CNAME** - *Used to store my apex domain* (Used for custom domain)
-* **styles.css** - *My custom CSS rules*
 * **twemoji-awesome.css** - *Required for Twemoji Awesome emoji library*
 
 ---
