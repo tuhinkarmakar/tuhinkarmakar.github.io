@@ -13,16 +13,14 @@
 * **README.md** - *Contains details about the repo*
 
 ###### The repo has the follwing directories
-* **bootstrap** - *Files required for the Bootstrap framework*
-* **font-awesome** - *Files required for the Font Awesome icon set* (Used for social buttons)
+* **css** - *Contains all the stylesheets used on the site*
+* **fonts** - *Contains the fonts required by Bootstrap, Font Awesome and Octicons*
 * **img** - *Stores images used on the site*
 * **js** - *Stores scripts used on the site*
-* **octicons** - *Files required for GitHub's Octicons icon set* (Used for the footer)
-* **styles** - *Stores stylesheets used on the site*
+* **less** - *Stores Less files used on the site*
 
 ###### Miscellaneous files
 * **CNAME** - *Used to store my apex domain* (Used for custom domain)
-* **twemoji-awesome.css** - *Required for Twemoji Awesome emoji library*
 
 ---
 
