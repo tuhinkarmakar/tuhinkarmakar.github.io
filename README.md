@@ -17,7 +17,6 @@
 * **fonts** - *Contains the fonts required by Bootstrap, Font Awesome and Octicons*
 * **img** - *Stores images used on the site*
 * **js** - *Stores scripts used on the site*
-* **less** - *Stores Less files used on the site*
 
 ###### Miscellaneous files
 * **CNAME** - *Used to store my apex domain* (Used for custom domain)
@@ -29,7 +28,6 @@
 * [Bootswatch Paper theme](http://bootswatch.com/paper)
 * [Twemoji Awesome](http://ellekasai.github.io/twemoji-awesome)
 * [Font Awesome](http://fontawesome.io/)
-* [Octicons](https://octicons.github.com/)
 
 #### Every web page has this ASCII Art
 
