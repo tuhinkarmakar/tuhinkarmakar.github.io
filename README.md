@@ -1,4 +1,4 @@
-# tuhinkarmakar.github.io
+# tuhinkarmakar.github.io [![Build Status](https://travis-ci.com/tuhinkarmakar/tuhinkarmakar.github.io.svg?token=Wqdj57hV4rkVDLttsxRZ&branch=master)](https://travis-ci.com/tuhinkarmakar/tuhinkarmakar.github.io)
 #### This repo is used to host my GitHub Pages website
 
 ## Site's Components
