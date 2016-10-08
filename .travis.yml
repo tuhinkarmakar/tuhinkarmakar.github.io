@@ -4,10 +4,10 @@ before_install:
     - echo "Installing tools for bulding and deploying the project..."
 
 install:
-    - npm install -g firebase-tools
-    - npm install -g html-minifier
-    - npm install -g cleancss
-    - npm install -g uglify-js
+    - npm install firebase-tools
+    - npm install html-minifier
+    - npm install cleancss
+    - npm install uglify-js
 
 script:
     - echo "Building project..."
