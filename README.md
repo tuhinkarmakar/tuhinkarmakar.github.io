@@ -43,4 +43,4 @@ P.S. What's up?
 
 **Ain't** :arrow_up: **awesome!** :v:
 
-The site is published at http://tuhinkarmakar.me
+The site is published at https://tuhinkarmakar.me
