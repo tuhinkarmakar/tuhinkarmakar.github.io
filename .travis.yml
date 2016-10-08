@@ -1,8 +1,5 @@
 language: generic
 
-before_install:
-    - echo "Installing tools for bulding and deploying the project..."
-
 install:
     - npm install firebase-tools
     - npm install html-minifier
@@ -10,7 +7,6 @@ install:
     - npm install uglify-js
 
 script:
-    - echo "Building project..."
     - ./build.bash
 
 after_success:
