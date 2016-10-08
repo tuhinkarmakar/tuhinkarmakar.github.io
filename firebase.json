@@ -1,19 +1,21 @@
 {
   "hosting": {
-    "public": "build"
-	},
-
-	"ignore": [
-		"firebase.json",
-		".git",
-		".travis.yml"
-	],
-
-	"headers": [{
-		"source" : "**/*.@(jpg|jpeg|gif|png|webp|css|js|woff2)",
-		"headers" : [{
-		"key" : "Cache-Control",
-		"value" : "max-age=3600"
-		}]
-    }]
+    "public": "build",
+    "headers": [
+      {
+        "source": "**/*.@(jpg|jpeg|gif|png|webp|css|js|woff2)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "max-age=3600"
+          }
+        ]
+      }
+    ],
+    "ignore": [
+      "firebase.json",
+      ".git",
+      ".travis.yml"
+    ]
+  }
 }
