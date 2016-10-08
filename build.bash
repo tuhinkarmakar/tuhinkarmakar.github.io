@@ -1,8 +1,15 @@
 #! /bin/bash
 
+echo "Building project"
+echo
+
+echo "Creating build directories"
+echo "---------------------------"
 mkdir -v build && mkdir -v build/css && mkdir -v build/img && mkdir -v build/js && mkdir -v build/fonts
 echo
 
+echo "Minifying HTML files"
+echo "------------------------"
 for file in *
 	do
 		if [[ $file == *.html ]]
@@ -15,6 +22,8 @@ for file in *
 
 echo
 
+echo "Minifying CSS files"
+echo "--------------------"
 for file in css/*
 	do
 		if [[ $file == *.css ]]
@@ -26,6 +35,8 @@ for file in css/*
 
 echo
 
+echo "Minifying JS files"
+echo "-------------------"
 for file in js/*
 	do
 		if [[ $file == *.js ]]
@@ -37,6 +48,8 @@ for file in js/*
 
 echo
 
+echo "Copying images"
+echo "---------------"
 for file in img/*
 	do
 		if [[ $file =~ .*\.(jpg|jpeg|gif|png|webp|ico) ]]
@@ -47,6 +60,8 @@ for file in img/*
 
 echo
 
+echo "Copying fonts"
+echo "--------------"
 for file in fonts/*
 	do
 		if [[ $file == *.woff2 ]]
@@ -54,3 +69,6 @@ for file in fonts/*
 				cp -v $file build/$file
 		fi
 	done
+
+echo
+echo "Finished building project"
