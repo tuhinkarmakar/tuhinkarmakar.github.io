@@ -19,8 +19,8 @@ for file in css/*
 	do
 		if [[ $file == *.css ]]
 			then
-				echo cssnano $file build/css/$file
-				cssnano $file build/$file
+				echo cleancss $file build/css/$file
+				cleancss -o build/$file $file
 		fi
 	done
 
