@@ -6,7 +6,7 @@ before_install:
 install:
     - npm install firebase-tools
     - npm install html-minifier
-    - npm install cleancss
+    - npm install clean-css
     - npm install uglify-js
 
 script:
