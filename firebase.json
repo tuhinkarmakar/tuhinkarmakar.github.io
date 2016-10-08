@@ -6,6 +6,7 @@
 	"ignore": [
 		"firebase.json",
 		".git",
+		".travis.yml"
 	],
 
 	"headers": [{
