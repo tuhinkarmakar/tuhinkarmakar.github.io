@@ -1,8 +1,5 @@
 #! /bin/bash
 
-rm -rv build
-echo
-
 mkdir -v build && mkdir -v build/css && mkdir -v build/img && mkdir -v build/js && mkdir -v build/fonts
 echo
 
