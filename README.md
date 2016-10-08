@@ -18,9 +18,6 @@
 * **img** - *Stores images used on the site*
 * **js** - *Stores scripts used on the site*
 
-###### Miscellaneous files
-* **CNAME** - *Used to store my apex domain* (Used for custom domain)
-
 ---
 
 #### Following frameworks, themes, icon sets have been used
