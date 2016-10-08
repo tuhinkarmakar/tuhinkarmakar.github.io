@@ -14,7 +14,7 @@ for file in *
 	do
 		if [[ $file == *.html ]]
 			then
-				echo html-minifier --html5 --remove-comments --collapse-whitespace -o build/$file $file
+				echo "html-minifier --html5 --remove-comments --collapse-whitespace -o build/$file -> $file"
 
 				html-minifier --html5 --remove-comments --collapse-whitespace -o build/$file $file
 		fi
@@ -28,7 +28,7 @@ for file in css/*
 	do
 		if [[ $file == *.css ]]
 			then
-				echo cleancss $file build/css/$file
+				echo "cleancss $file -> build/$file"
 				cleancss -o build/$file $file
 		fi
 	done
@@ -41,7 +41,7 @@ for file in js/*
 	do
 		if [[ $file == *.js ]]
 			then
-				echo uglifyjs --screw-ie8  --compress --mangle --verbose --output build/$file -- $file
+				echo "uglifyjs --screw-ie8  --compress --mangle --verbose --output build/$file -> $file"
 				uglifyjs --screw-ie8  --compress --mangle --verbose --output build/$file -- $file
 		fi
 	done
