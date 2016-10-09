@@ -71,4 +71,10 @@ for file in fonts/*
 	done
 
 echo
+
+echo "Copying sitemap"
+echo "--------------"
+cp sitemap.xml build/sitemap.xml
+
+echo
 echo "Finished building project"
