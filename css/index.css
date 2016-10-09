@@ -5,6 +5,7 @@
 
 #social-buttons > li {
 	display: inline;
+	margin-left: 5px;
 }
 
 .jumbotron h1 {
