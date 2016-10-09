@@ -76,9 +76,9 @@ echo "Copying sitemap"
 echo "--------------"
 cp sitemap.xml build/sitemap.xml
 
-echo "Copying robot.txt"
+echo "Copying robots.txt"
 echo "--------------"
-cp robot.txt build/robot.txt
+cp robots.txt build/robots.txt
 
 echo
 echo "Finished building project"
