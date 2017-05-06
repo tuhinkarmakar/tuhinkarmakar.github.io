@@ -9,10 +9,10 @@ before_install:
     - sudo npm install -g npm
 
 install:
-    - npm install firebase-tools
-    - npm install html-minifier
-    - npm install clean-css-cli
-    - npm install uglify-js
+    - sudo npm install -g firebase-tools
+    - sudo npm install -g html-minifier
+    - sudo npm install -g clean-css-cli
+    - sudo npm install -g uglify-js
 
 script:
     - ./build.bash
