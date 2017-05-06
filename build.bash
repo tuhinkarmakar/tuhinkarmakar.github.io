@@ -29,7 +29,7 @@ for file in css/*
 		if [[ $file == *.css ]]
 			then
 				echo "cleancss $file -> build/$file"
-				cleancss -o build/$file $file
+				cleancss --inline all -o build/$file $file
 		fi
 	done
 
