@@ -18,4 +18,4 @@ script:
     - ./build.bash
 
 after_success:
-    firebase deploy --token $FIREBASE_TOKEN
+    sudo firebase deploy --token $FIREBASE_TOKEN
