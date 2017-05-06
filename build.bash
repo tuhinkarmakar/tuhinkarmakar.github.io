@@ -48,6 +48,30 @@ for file in js/*
 
 echo
 
+echo "Copying already minified CSS files"
+echo "-----------------------------------"
+for file in css/*
+	do
+		if [[ $file == *.min.css ]]
+			then
+				cp -v $file build/$file
+		fi
+	done
+
+echo
+
+echo "Copying already minified JS files"
+echo "----------------------------------"
+for file in js/*
+	do
+		if [[ $file == *.min.js ]]
+			then
+				cp -v $file build/$file
+		fi
+	done
+
+echo
+
 echo "Copying images"
 echo "---------------"
 for file in img/*
