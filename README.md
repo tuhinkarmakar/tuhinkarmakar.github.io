@@ -9,7 +9,7 @@
 * **index.html** - *Landing page*
 * **resume.html** - *Showcases my resume*
 
-###### The repo the follwing Markdown pages
+###### The repo has the follwing Markdown pages
 * **README.md** - *Contains details about the repo*
 
 ###### The repo has the follwing directories
