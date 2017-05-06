@@ -26,7 +26,7 @@ echo "Minifying CSS files"
 echo "--------------------"
 for file in css/*
 	do
-		if [[ $file == *.css ]]
+		if [[ ! $file == *.min.css ]]
 			then
 				echo "cleancss $file -> build/$file"
 				cleancss --inline all -o build/$file $file
@@ -39,7 +39,7 @@ echo "Minifying JS files"
 echo "-------------------"
 for file in js/*
 	do
-		if [[ $file == *.js ]]
+		if [[ ! $file == *.min.js ]]
 			then
 				echo "uglifyjs --screw-ie8  --compress --mangle --verbose --output build/$file -> $file"
 				uglifyjs --screw-ie8  --compress --mangle --verbose --output build/$file -- $file
