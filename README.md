@@ -7,7 +7,6 @@
 
 * **404.html** - *Custom page for 404 error*
 * **index.html** - *Landing page*
-* **resume.html** - *Showcases my resume*
 
 ###### The repo has the follwing Markdown pages
 * **README.md** - *Contains details about the repo*
