@@ -17,14 +17,7 @@
 * **img** - *Stores images used on the site*
 * **js** - *Stores scripts used on the site*
 
-###### The repo has the following configuration files
-* **.firebaserc** - *Stores runtime configurations for the Firebase project*
-* **firebase.json** - *Stores configurations for Firebase deployment*
-* **.travis.yml** - *Stores configurations for Travis CI build process*
-* **.gitignore** - *Stores files and directories to be ignored by Git*
-
 ###### The repo has the following miscellaneous files
-* **build.bash** - *This build script contains the tasks to be performed by Travis CI*
 * **robots.txt** - *Contains rules for web crawlers*
 * **sitemap.xml** - *Contains the sitemap of the website*
 
