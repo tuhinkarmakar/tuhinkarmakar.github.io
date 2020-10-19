@@ -18,8 +18,6 @@ This repo is used to host my official website
 * [robots.txt](robots.txt) - Contains rules for web crawlers
 * [sitemap.xml](sitemap.xml) - Contains the sitemap of the website
 
----
-
 ## Following frameworks have been used
 * [Bootstrap](https://getbootstrap.com/)
 
