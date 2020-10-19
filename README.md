@@ -1,34 +1,30 @@
-# tuhinkarmakar.github.io [![Build Status](https://travis-ci.com/tuhinkarmakar/tuhinkarmakar.github.io.svg?token=Wqdj57hV4rkVDLttsxRZ&branch=master)](https://travis-ci.com/tuhinkarmakar/tuhinkarmakar.github.io)
-#### This repo is used to host my official website
+# tuhinkarmakar.github.io
+This repo is used to host my official website
 
 ## Site's Components
 
-###### The repo has the follwing HTML pages
+### The repo has the follwing HTML pages
+* [404.html](404.html) - Custom page for 404 error
+* [index.html](index.html) - Landing page
 
-* **404.html** - *Custom page for 404 error*
-* **index.html** - *Landing page*
+### The repo has the follwing Markdown pages
+* [README.md](README.md) - Contains details about the repo
 
-###### The repo has the follwing Markdown pages
-* **README.md** - *Contains details about the repo*
+### The repo has the follwing directories
+* [css](css) - Contains all the stylesheets used on the site
+* [images](images) - Stores images used on the site
 
-###### The repo has the follwing directories
-* **css** - *Contains all the stylesheets used on the site*
-* **fonts** - *Contains the fonts required by Bootstrap and Font Awesome*
-* **images** - *Stores images used on the site*
-
-###### The repo has the following miscellaneous files
-* **robots.txt** - *Contains rules for web crawlers*
-* **sitemap.xml** - *Contains the sitemap of the website*
+### The repo has the following miscellaneous files
+* [robots.txt](robots.txt) - Contains rules for web crawlers
+* [sitemap.xml](sitemap.xml) - Contains the sitemap of the website
 
 ---
 
-#### Following frameworks, themes, icon sets have been used
-* [Bootstrap](http://getbootstrap.com/)
-* [Bootswatch Paper theme](http://bootswatch.com/paper)
-* [Twemoji Awesome](http://ellekasai.github.io/twemoji-awesome)
-* [Font Awesome](http://fontawesome.io/)
+## Following frameworks have been used
+* [Bootstrap](https://getbootstrap.com/)
 
-#### Every web page has this ASCII Art
+## The :sunglasses: stuff
+Every web page has this ASCII art in its source code.
 
 ```
 Coded by,
