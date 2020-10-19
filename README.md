@@ -15,7 +15,6 @@
 * **css** - *Contains all the stylesheets used on the site*
 * **fonts** - *Contains the fonts required by Bootstrap and Font Awesome*
 * **img** - *Stores images used on the site*
-* **js** - *Stores scripts used on the site*
 
 ###### The repo has the following miscellaneous files
 * **robots.txt** - *Contains rules for web crawlers*
