@@ -1,21 +1,21 @@
 {
-  "hosting": {
-    "public": "build",
-    "headers": [
-      {
-        "source": "**/*.@(jpg|jpeg|gif|png|webp|css|js|woff2)",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "max-age=2592000"
-          }
-        ]
-      }
-    ],
-    "ignore": [
-      "firebase.json",
-      ".git",
-      ".travis.yml"
-    ]
-  }
+	"hosting": {
+		"public": "build",
+		"headers": [
+			{
+				"source": "**/*.@(jpg|jpeg|gif|png|webp|css|js|woff2)",
+				"headers": [
+					{
+						"key": "Cache-Control",
+						"value": "max-age=2592000"
+					}
+				]
+			}
+		],
+		"ignore": [
+			"firebase.json",
+			".git",
+			".travis.yml"
+		]
+	}
 }
