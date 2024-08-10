@@ -19,24 +19,6 @@ This repo is used to host my official website
 * [sitemap.xml](sitemap.xml) - Contains the sitemap of the website
 
 ## Following frameworks have been used
-* [Bootstrap](https://getbootstrap.com/)
-
-## The :sunglasses: stuff
-Every web page has this ASCII art in its source code.
-
-```
-Coded by,
-The one and only,
-
-========== ========== ||\\    || ==========    =========   ==========
-    ||     ||         || \\   || ||          ||         ||     ||
-    ||     ||=======  ||  \\  || ==========  ||=========||     ||
-    ||     ||         ||   \\ ||         ||  ||         ||     ||
-    ||     ========== ||    \\|| ==========  ||         || ==========
-
-P.S. What's up?
-```
-
-**Ain't** :arrow_up: **awesome!** :v:
+* [Bootstrap](https://getbootstrap.com)
 
 The site is published at https://tuhinkarmakar.me
